@@ -1,0 +1,194 @@
+
+/* Big tablets to 1200px (widths smaller than the 1140px row): 1024px to 1200px */
+
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+}
+
+.row { padding: 0 2%; }
+
+}
+
+    .location-photo img {
+        width: 110%;
+        height: 180px;
+    }
+    
+    .location-photo img { font-size: 90%; }
+    
+    .customers img {
+        width: 100%;
+        height: 100%%;
+    }
+
+/* Small tablets to big tablets: 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    body {
+    font-size: 18px;
+    overflow-x: hidden;
+    }
+    section { padding: 60px 0; }
+
+
+.icon-small {
+    width: 17px;
+    margin-right: 5px;
+    }
+    
+    
+    .description-text h3{
+        font-size:  150%;
+        float: left;
+        margin: 10px;
+    }
+    
+    .description-text p {
+        height: 200%;
+    }
+    
+    .kashmir-img img {
+        float: left;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .location-photo img {
+        width: 110%;
+        height: 180px;
+    }
+    
+    .location-photo img { font-size: 90%; }
+    
+    .customers img {
+        width: 100%;
+        height: 100%%;
+    }
+    
+}
+    
+/* Small phones to small tablets: 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    
+    
+    .section-description {
+        overflow-x: hidden;
+    }
+    
+    body {
+        font-size: 16px;
+        /* overflow-x: hidden; */
+    }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    
+    header{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    
+    padding: 30px;
+}
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    .main-nav { display: none; }
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+    padding: 10px 0;
+}
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+    
+    
+    h1 { font-size: 180%; }
+    
+    h2, h3 { font-size: 150%; }
+    
+    h3 { text-align: center; }
+    
+    .test { text-align: center; }
+    
+    .icon-twitter { margin: 0; }
+    
+    .location-photo img {
+        align-items: center;
+        width: 350px;
+    }
+    
+    .social-links {
+        float: right;
+    }
+    
+    .footer-nav {
+        float: left;
+        
+    }
+    
+    .kashmir-img img {
+        height: 500px;
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        
+        }
+    
+    .customers img {
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        height: auto;
+    }
+    
+    .location-photo img {
+
+        height: 400px;
+        width: 100%;
+        
+    }
+    
+ 
+    
+/* Small phones: 0px to 480px */
+
+@media only screen and (max-width: 480px) {
+    
+    section { padding: 25px 0; }
+    .contact-form { width: 100%; }
+    
+
+}
